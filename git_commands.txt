@@ -1,3 +1,8 @@
+CREATE NEW LOCAL REPOSITORY
+
+git init
+
+
 CREATE NEW REMOTE REPOSITORY (Git Hub)
 
 echo "# Your Repo Name" >> README.md
@@ -7,8 +12,20 @@ git commit -m "first commit"
 git remote add origin https://github.com/williameray1/"your repo name".git
 git push -u origin master
 
+PULL FROM AN EXISTING REMOTE REPOSITORY
+
+git clone https://github.com/williameray1/"your repo name".git
+
 
 PUSH TO AN EXISTING REMOTE REPOSITORY (Git Hub)
 
 git remote add origin https://github.com/williameray1/"your repo name".git
 git push -u origin master
+
+
+
+
+git add filename.extension (add a single tracked file to repo)
+git add filename.* (add all tracked files of a given extension to repo)
+git add . (add all tracked files to a repo)
+get add .
