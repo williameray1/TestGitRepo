@@ -1,31 +1,47 @@
 CREATE NEW LOCAL REPOSITORY
 
-git init
-
+$ git init (Create repository in the current directory)
 
 CREATE NEW REMOTE REPOSITORY (Git Hub)
 
 echo "# Your Repo Name" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/williameray1/"your repo name".git
-git push -u origin master
+$ git init
+$ git add README.md
+$ git commit -m "first commit"
+$ git remote add origin https://github.com/williameray1/"your repo name".git
+$ git push -u origin master
 
-PULL FROM AN EXISTING REMOTE REPOSITORY
+PULL FROM AN EXISTING REMOTE REPOSITORY (Git Hub)
 
-git clone https://github.com/williameray1/"your repo name".git
+$ git clone https://github.com/williameray1/"your repo name".git
 
 
 PUSH TO AN EXISTING REMOTE REPOSITORY (Git Hub)
 
-git remote add origin https://github.com/williameray1/"your repo name".git
-git push -u origin master
+$ git remote add origin https://github.com/williameray1/"your repo name".git
+$ git push -u origin master
 
 
+GIT "ADD" COMMANDS
 
+$ git add filename.extension (add a single tracked file to repo)
+$ git add filename.* (add all tracked files of a given extension to repo)
+$ git add . (add all tracked files to a repo)
 
-git add filename.extension (add a single tracked file to repo)
-git add filename.* (add all tracked files of a given extension to repo)
-git add . (add all tracked files to a repo)
-get add .
+CREATE GIT IGNORE FILE
+
+$ touch .gitignore
+(In the .gitignore file add files types to be ignored such as "*.log" or "*.md" do not include "" when adding)
+REMEMBER: you must add and commit the .gitignore file to the repository.
+
+GIT "COMMIT" COMMANDS
+
+$ git commit (commits staged files (will bring you to VIM))
+$ git commit -m "your note" (allows you to add notes rather then use VIM)
+
+CREATING AND MERGING BRANCHES
+
+$ git branch nameofbranch (creates new branch)
+$ git checkout nameofbranch (switches git to the new branch)
+$ git checkout master (switches git back to master branch)
+$ git merge nameofbranch (All merges must be done while in the source (Master) branch)
