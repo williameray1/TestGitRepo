@@ -8,6 +8,7 @@ $ git addall (add all files)
 $ git lol (log --graph --oneline --decorate)
 $ git last (log -l HEAD)
 $ git unstage (reset HEAD --)
+$ git me (merge)
 
 CREATE NEW LOCAL REPOSITORY
 
