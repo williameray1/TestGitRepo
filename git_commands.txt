@@ -1,2 +1,14 @@
-git remote add origin https://github.com/williameray1/TestGitRepo.git
+CREATE NEW REMOTE REPOSITORY (Git Hub)
+
+echo "# Your Repo Name" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/williameray1/"your repo name".git
+git push -u origin master
+
+
+PUSH TO AN EXISTING REMOTE REPOSITORY (Git Hub)
+
+git remote add origin https://github.com/williameray1/"your repo name".git
 git push -u origin master
