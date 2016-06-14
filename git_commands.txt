@@ -38,6 +38,7 @@ GIT "COMMIT" COMMANDS
 
 $ git commit (commits staged files (will bring you to VIM))
 $ git commit -m "your note" (allows you to add notes rather then use VIM)
+$ git commit -a -m "your note" (-a skips the git add step)
 
 CREATING AND MERGING BRANCHES
 
