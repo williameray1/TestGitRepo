@@ -1,3 +1,14 @@
+MY GIT ALIASES
+
+$ git co (checkout)
+$ git br (branch)
+$ git ct (commit)
+$ git st (status)
+$ git addall (add all files)
+$ git lol (log --graph --oneline --decorate)
+$ git last (log -l HEAD)
+$ git unstage (reset HEAD --)
+
 CREATE NEW LOCAL REPOSITORY
 
 $ git init (Create repository in the current directory)
@@ -46,3 +57,8 @@ $ git branch nameofbranch (creates new branch)
 $ git checkout nameofbranch (switches git to the new branch)
 $ git checkout master (switches git back to master branch)
 $ git merge nameofbranch (All merges must be done while in the destination (Master) branch)
+
+ACCESS GIT CHANGE LOG
+
+$ git log
+$ git log --graph --oneline (gives changes on a one line bases without showing who made the changes)
