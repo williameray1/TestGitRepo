@@ -1,3 +1,7 @@
+ADD GIT ALIASES
+
+git config --global alias.NewAliasName 'Actual command and switches'
+
 MY GIT ALIASES
 
 $ git co (checkout)
@@ -9,6 +13,7 @@ $ git lol (log --graph --oneline --decorate)
 $ git last (log -l HEAD)
 $ git unstage (reset HEAD --)
 $ git me (merge)
+
 
 CREATE NEW LOCAL REPOSITORY
 
