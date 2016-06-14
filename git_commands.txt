@@ -44,4 +44,4 @@ CREATING AND MERGING BRANCHES
 $ git branch nameofbranch (creates new branch)
 $ git checkout nameofbranch (switches git to the new branch)
 $ git checkout master (switches git back to master branch)
-$ git merge nameofbranch (All merges must be done while in the source (Master) branch)
+$ git merge nameofbranch (All merges must be done while in the destination (Master) branch)
